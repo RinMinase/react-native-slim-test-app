@@ -11,6 +11,8 @@
   "scripts": {
     "start": "react-native-scripts start",
     "eject": "react-native-scripts eject",
+    "bundle-android": "exp build:android",
+    "bundle-ios": "exp build:ios",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest"
@@ -19,6 +21,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "exp": "55.0.5",
     "expo": "^27.0.1",
     "react": "16.3.1",
     "react-native": "~0.55.2"
