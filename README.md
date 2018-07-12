@@ -5,7 +5,7 @@ cd react-native-test-app
 npm install
 ```
 
-## To build an Android package file (APK) or an iOS package file (IPL)
+## To build an Android (APK) or an iOS (IPL) package file
 The setup uses exp library to bundle an APK / IPL package files.
 
 Although the readme in [create-react-native-app](https://github.com/react-community/create-react-native-app) explicitly stated that the `exp` library should be installed globally, this project has configured it by running the scripts located in `package.json` under the key `scripts.bundle-android`.
