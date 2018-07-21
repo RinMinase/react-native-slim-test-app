@@ -1,29 +1,22 @@
 {
-  "name": "react-native-test-app",
-  "version": "0.1.0",
+  "name": "reactNativeTestProject",
+  "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "react-native-scripts": "1.14.0",
-    "jest-expo": "~27.0.0",
-    "react-test-renderer": "16.3.1"
-  },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "bundle-android": "exp build:android",
-    "bundle-ios": "exp build:ios",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "jest": {
-    "preset": "jest-expo"
-  },
   "dependencies": {
-    "exp": "55.0.5",
-    "expo": "^27.0.1",
-    "react": "16.3.1",
-    "react-native": "~0.55.2"
+    "react": "16.4.1",
+    "react-native": "0.55.4"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
