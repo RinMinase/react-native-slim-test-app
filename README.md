@@ -1,4 +1,11 @@
 ## Development Environment setup
+### On GitHub
+```
+git clone https://github.com/RinMinase/react-native-test-app.git
+cd react-native-test-app
+```
+
+### On GitLab
 ```
 git clone https://gitlab.com/javascript-enthusiats/react-native-test-app
 cd react-native-test-app
@@ -28,7 +35,7 @@ cd react-native-test-app
 2. Android Build Tools 26.0.3
 3. Android Platform Tools
 	- Install both of these by running the command below:
-	- `sdkmanager platform-tools build-tools;26.0.3
+	- `sdkmanager platform-tools build-tools;26.0.3`
 4. Gradle
 	- Install the latest [Gradle binary-only release](https://gradle.org/releases/)
 	- Similar to the steps above, unpack it to a folder of your preference
