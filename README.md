@@ -129,7 +129,7 @@ react-native run-ios
 - Test Renderer > React's Test Renderer [16.4.1]
 
 ## Additional Information
-Other projects may include Expo to improve React-Native's way of compiling your source code. This also helps you build native iOS and Android apps using JavaScript and React easier. But for this approach, this increased the build size of the APK file from 15mb to around 45mb. This may be due to the previous setup of this project, so instead this project opted to remove Expo to reduce the build size and likewise the complexity of understanding the other dependencies of the project.
+Other projects may include Expo to improve React-Native's way of compiling your source code. This also helps you build native iOS and Android apps using JavaScript and React easier. But for this approach, this increases the build size of the APK file from 15mb to around 45mb. This may be due to the previous setup of this project, so instead this project opted to remove Expo to reduce the build size and likewise the complexity of understanding the other dependencies of the project.
 
 ## Footnotes
 > The latest version of React Native `0.56.0` and Babel's Preset on React Native `5.0.0` had an issue on compiling on Android, which is why this project used the "latest" working version `0.55.4` on React Native and `2.1.0` on Babel's Preset for React native respectively.
